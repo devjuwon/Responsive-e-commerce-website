@@ -179,7 +179,8 @@ nav.sticky{
     /* color: brown; */
     font-weight: 600;
     text-align: center;
-}
+    margin-bottom: 5rem;
+ }
 
 
 span{
@@ -198,6 +199,7 @@ span{
     gap: 2rem;
     align-items: center;
     margin-top: 5rem;
+    margin-bottom: -3rem;
     
 }
 
@@ -251,7 +253,7 @@ span{
     border-radius: 20%;
     margin-bottom: 1.2rem;
     transition: all 45s ease;
-    background-color: #edc929;
+    background-color: #ded199;
 }
 
 .product-content{
@@ -295,8 +297,8 @@ span{
     display: inline-block;
     padding: 4px 16px;
     background: transparent;
-    border: 2px solid #ef4444;
-    color: #ef4444;
+    border: 2px solid brown;
+    color: brown;
     border-radius: 8px;
     font-size: 15px;
     font-weight: 600;
@@ -308,8 +310,8 @@ span{
 
 .rating a{
     font-size: 19px;
-    color: #ef4444;
-    margin-right: 4px;
+    color: brown;
+    margin-right: 1px;
 
 }
 
@@ -323,30 +325,88 @@ span{
    align-items: center;
    justify-content: center;
    background: var(--bg-color);
-   color: #ef4444;
+   color: var(--other-color);
    font-size: 22px;
    border-radius: 50%;
    transition: all 45s ease;
 }
 
 .heart i:hover{
-    color: var(--bg-color);
-    background: #ef4444;
+    color: var(--main-color);
+    background: brown;
     cursor: pointer;
 }
 
 .cta{
-    background: url(https://images.pexels.com/photos/4349847/pexels-photo-4349847.jpeg?auto=compress&cs=tinysrgb&w=800);
-    height: 100px;
-    background-size: 2000px;
+    background: url(https://res.cloudinary.com/dzmhkzava/image/upload/v1716586125/web_pic_uiwa4y.jpg);
+    height: 500px;
+    background-size: cover;
     background-position: center;
     border-radius: 20px;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: flex-start;
-
+    padding: 10px 10px;
 }
 
+.cta-text{
+   max-width: 600px;
+   margin-left: 120px;
+   color: #ffffff; 
+}
 
+.cta-text h3{
+   font-size: 3.3rem;
+   line-height: 1.2;
+   margin-bottom: 1.5rem; 
+}
 
+.cta-text p{
+    font-size: var(--p-font);
+    color: rgb(252, 237, 237);
+    font-weight: 650;
+    margin-bottom: 2.5rem;
+}
+
+.contact{
+    padding: 50px 11% 40px;
+}
+
+.main-contact{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: -80px; */
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact-content h5{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.contact-content li{
+    margin-bottom: 12px;
+}
+
+.contact-content li a{
+    display: block;
+    font-size: 15px;
+    color: #374151;
+    font-weight: 400;
+    transition: all .45s ease;
+}
+
+.contact-content li a:hover{
+    color: var(--text-color);
+    transform: translateX(-5px);
+}
+
+.end-text p{
+   text-align: center;
+   padding: 20px;
+   font-size: 14px;
+   letter-spacing: 1px;
+   color: var(--other-color); 
+}
 
